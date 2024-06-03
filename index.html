@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aphiwe Maqebhula - Online CV</title>
+</head>
+<body>
+    <header>
+        <h1>Aphiwe Maqebhula - Online CV</h1>
+    </header>
+
+    <section class="bio">
+        <img src="Screenshot_20240602_220623_Instagram.jpg" alt="Aphiwe Maqebhula" width="300">
+        <h2>About Me</h2>
+        <p>Hi, I'm Aphiwe Maqebhula, a driven and passionate aspiring full stack developer and software engineer. Currently, I'm honing my skills at HyperionDev, where I'm immersed in a comprehensive programme thats equipping me with the expertise to design, develop, and deploy dynamic web applications and software solutions. With a strong foundation in programming fundamentals, I'm excited to expand my knowledge in cutting edge technologies and frameworks. My goal is to create innovative, user-centric experiences that make a meaningful impact in the digital world. As a lifelong learner, I embrace challenges and colloborations that foster growth and creativity. I'm eager to connect with like-minded individuals and contribute to projects that push the boundaries of technology and human connection. </p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Details</h2>
+        <p>Name: Aphiwe Maqebhula</p>
+        <p>Phone: 0792338502</p>
+        <p>Email: <a href="mailto:apiwe.maqebhula@gmail.com">apiwe.maqebhula@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/aphiwe-maqebhula-49b236284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">your-profile</a></p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills and Competencies</h2>
+        <ul>
+            <li>Full Stack Web Development</li>
+            <li>Software Engineering</li>
+            <li>JavaScript, HTML, CSS, Java</li>
+            <li>React, Node.js, Express</li>
+            <li>SQL, MongoDB, PHP</li>
+            <li>Version Control (Git)</li>
+            
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Khanyisa High School</strong> - Completed Grade 12, 2017</li>
+            <li><strong>Durban University of Technology</strong> - Degree in Urban and Regional Planning (2020 - 2022, not completed due to financial reasons.)</li>
+            <li><strong>Careers Business Institution</strong> - Certificate in Systems Development learnership, 2023, (not completed due to lack of inservice training.)</li>
+            <li><strong>HyperionDev</strong> - Certificate in Full Stack Development and Software Engineering (May 2024 - Present)</li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2>Work Experience</h2>
+        <p><strong>Department of Sports, Recreation, Arts and Culture(EPWP Library Assistant)</strong> - I have worked at Mt Frere public library from 2018-2019 as an EPWP library assistant. I was responsible for helping learners with research using computers, contract was 24 months.</p>
+    </section>
+
+    <div class="form-container">
+        <h2>Search My CV</h2>
+        <form method="GET" action="/search">
+            <input type="text" name="query" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h2>Contact Me</h2>
+        <form method="POST" action="/contact">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aphiwe Maqebhula. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
